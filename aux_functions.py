@@ -14,7 +14,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
 
-    lives = 10
+    lives = int(input('How many lives have the player? >> '))
 
     while( len(word_letters) > 0 and lives > 0 ):
         print(f'Current lives -> {lives}')
