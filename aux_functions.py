@@ -40,4 +40,4 @@ def hangman():
     if( len(word_letters) == 0 ):
         print(f'You won, the word was {word}')
     else:
-        print('You lost, the word was {word}')
+        print(f'You lost, the word was {word}')
